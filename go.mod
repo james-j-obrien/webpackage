@@ -1,5 +1,4 @@
-module github.com/WICG/webpackage
-replace github.com/WICG/webpackage => github.com/james-j-obrien/webpackage
+module github.com/james-j-obrien/webpackage
 
 
 require (
@@ -7,3 +6,5 @@ require (
 	github.com/ugorji/go/codec v0.0.0-20181209151446-772ced7fd4c2
 	golang.org/x/crypto v0.0.0-20180910181607-0e37d006457b
 )
+
+replace github.com/WICG/webpackage => github.com/james-j-obrien/webpackage
