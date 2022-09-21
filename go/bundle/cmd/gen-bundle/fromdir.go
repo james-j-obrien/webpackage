@@ -13,7 +13,7 @@ import (
 	"github.com/WICG/webpackage/go/bundle"
 )
 
-func fromDir(baseDir string, baseURL *url.URL) ([]*bundle.Exchange, error) {
+func fromDir(baseDir string, baseURL *url.URL, cors bool) ([]*bundle.Exchange, error) {
 	es := []*bundle.Exchange{}
 	err := filepath.Walk(baseDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
@@ -36,7 +36,7 @@ func fromDir(baseDir string, baseURL *url.URL) ([]*bundle.Exchange, error) {
 				url += "/"
 			}
 		}
-		e, err := createExchange(path, url)
+		e, err := createExchange(path, url, cors)
 		if err != nil {
 			return err
 		}
@@ -88,7 +88,7 @@ func (w *responseWriter) WriteHeader(statusCode int) {
 // createExchange creates a bundle.Exchange whose request URL is url
 // and response body is the contents of the file. Internally, it uses
 // http.ServeFile to generate a realistic HTTP response for the file.
-func createExchange(file string, url string) (*bundle.Exchange, error) {
+func createExchange(file string, url string, cors bool) (*bundle.Exchange, error) {
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		return nil, fmt.Errorf("http.newRequest failed: %v", err)
@@ -97,6 +97,10 @@ func createExchange(file string, url string) (*bundle.Exchange, error) {
 
 	w := newResponseWriter()
 	http.ServeFile(w, req, file)
+
+	if cors {
+		req.Header.Set("Access-Control-Allow-Origin", "*")
+	}
 
 	return &bundle.Exchange{
 		Request: bundle.Request{

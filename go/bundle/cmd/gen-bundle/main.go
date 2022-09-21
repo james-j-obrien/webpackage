@@ -32,6 +32,7 @@ var (
 	flagManifestURL  = flag.String("manifestURL", "", "Manifest URL")
 	flagOutput       = flag.String("o", "out.wbn", "Webbundle output file")
 	flagURLList      = flag.String("URLList", "", "URL list file")
+	flagCors		 = flag.Bool("cors", false, "Add cors header to requests")
 	flagIgnoreErrors = flag.Bool("ignoreErrors", false, "Do not reject invalid input arguments")
 
 	flagHeaderOverride = headerArgs{}
@@ -89,7 +90,7 @@ func main() {
 				log.Fatalf("Failed to parse base URL. err: %v", err)
 			}
 		}
-		es, err := fromDir(*flagDir, parsedBaseURL)
+		es, err := fromDir(*flagDir, parsedBaseURL, *flagCors)
 		if err != nil {
 			log.Fatal(err)
 		}
