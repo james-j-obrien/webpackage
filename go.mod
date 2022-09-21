@@ -7,4 +7,4 @@ require (
 	golang.org/x/crypto v0.0.0-20180910181607-0e37d006457b
 )
 
-replace github.com/WICG/webpackage => github.com/james-j-obrien/webpackage
+replace github.com/WICG/webpackage => github.com/james-j-obrien/webpackage@latest
