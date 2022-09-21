@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/WICG/webpackage/go/bundle"
+	"github.com/james-j-obrien/webpackage/go/bundle"
 )
 
 func fromDir(baseDir string, baseURL *url.URL, cors bool) ([]*bundle.Exchange, error) {

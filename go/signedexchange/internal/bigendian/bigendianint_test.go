@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/WICG/webpackage/go/signedexchange/internal/bigendian"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/internal/bigendian"
 )
 
 func TestEncodeBytesUint(t *testing.T) {

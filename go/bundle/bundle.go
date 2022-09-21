@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/WICG/webpackage/go/bundle/version"
-	"github.com/WICG/webpackage/go/signedexchange/certurl"
+	"github.com/james-j-obrien/webpackage/go/bundle/version"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/certurl"
 )
 
 type Request struct {

@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/WICG/webpackage/go/internal/signingalgorithm"
-	"github.com/WICG/webpackage/go/internal/testhelper"
-	. "github.com/WICG/webpackage/go/signedexchange/certurl"
+	"github.com/james-j-obrien/webpackage/go/internal/signingalgorithm"
+	"github.com/james-j-obrien/webpackage/go/internal/testhelper"
+	. "github.com/james-j-obrien/webpackage/go/signedexchange/certurl"
 )
 
 func createCertChain(t *testing.T) CertChain {

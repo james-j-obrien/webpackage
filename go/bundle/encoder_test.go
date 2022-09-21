@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/WICG/webpackage/go/bundle/version"
-	"github.com/WICG/webpackage/go/internal/testhelper"
+	"github.com/james-j-obrien/webpackage/go/bundle/version"
+	"github.com/james-j-obrien/webpackage/go/internal/testhelper"
 )
 
 func urlMustParse(rawurl string) *url.URL {

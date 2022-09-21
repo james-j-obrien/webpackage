@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/WICG/webpackage/go/signedexchange/certurl"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/certurl"
 )
 
 var (

@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/WICG/webpackage/go/internal/cbor"
-	"github.com/WICG/webpackage/go/signedexchange/internal/bigendian"
-	"github.com/WICG/webpackage/go/signedexchange/version"
+	"github.com/james-j-obrien/webpackage/go/internal/cbor"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/internal/bigendian"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/version"
 )
 
 type Exchange struct {

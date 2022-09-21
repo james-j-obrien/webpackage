@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/WICG/webpackage/go/bundle/version"
-	"github.com/WICG/webpackage/go/internal/cbor"
-	"github.com/WICG/webpackage/go/signedexchange/structuredheader"
+	"github.com/james-j-obrien/webpackage/go/bundle/version"
+	"github.com/james-j-obrien/webpackage/go/internal/cbor"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/structuredheader"
 )
 
 const maxNumVariantsForSingleURL = 10000

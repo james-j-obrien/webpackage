@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WICG/webpackage/go/internal/signingalgorithm"
-	"github.com/WICG/webpackage/go/signedexchange/certurl"
-	"github.com/WICG/webpackage/go/signedexchange/structuredheader"
-	"github.com/WICG/webpackage/go/signedexchange/version"
+	"github.com/james-j-obrien/webpackage/go/internal/signingalgorithm"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/certurl"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/structuredheader"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/version"
 )
 
 // draft-yasskin-http-origin-signed-responses.html#signature-validity

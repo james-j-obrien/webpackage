@@ -12,7 +12,7 @@ We currently provide three command-line tools: `gen-bundle`, `sign-bundle` and `
 
 `dump-bundle` command is a bundle inspector tool. `dump-bundle` dumps the enclosed http exchanges of a given web bundle file in a human readable form.
 
-You are also welcome to use the code as golang lib (e.g. `import "github.com/WICG/webpackage/go/bundle"`), but please be aware that the API is not yet stable and is subject to change any time.
+You are also welcome to use the code as golang lib (e.g. `import "github.com/james-j-obrien/webpackage/go/bundle"`), but please be aware that the API is not yet stable and is subject to change any time.
 
 ## Getting Started
 

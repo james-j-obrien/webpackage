@@ -1,7 +1,7 @@
 package structuredheader_test
 
 import (
-	. "github.com/WICG/webpackage/go/signedexchange/structuredheader"
+	. "github.com/james-j-obrien/webpackage/go/signedexchange/structuredheader"
 	"testing"
 )
 

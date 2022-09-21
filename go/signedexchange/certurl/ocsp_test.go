@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/WICG/webpackage/go/internal/signingalgorithm"
-	. "github.com/WICG/webpackage/go/signedexchange/certurl"
+	"github.com/james-j-obrien/webpackage/go/internal/signingalgorithm"
+	. "github.com/james-j-obrien/webpackage/go/signedexchange/certurl"
 	"golang.org/x/crypto/ocsp"
 )
 

@@ -7,8 +7,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/WICG/webpackage/go/integrityblock"
-	"github.com/WICG/webpackage/go/internal/cbor"
+	"github.com/james-j-obrien/webpackage/go/integrityblock"
+	"github.com/james-j-obrien/webpackage/go/internal/cbor"
 )
 
 func writeOutput(bundleFile io.ReadSeeker, integrityBlockBytes []byte, originalIntegrityBlockOffset int64, signedBundleFile *os.File) error {

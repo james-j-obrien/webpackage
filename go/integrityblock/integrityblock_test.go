@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/WICG/webpackage/go/internal/cbor"
-	"github.com/WICG/webpackage/go/internal/testhelper"
+	"github.com/james-j-obrien/webpackage/go/internal/cbor"
+	"github.com/james-j-obrien/webpackage/go/internal/testhelper"
 )
 
 func TestEmptyIntegrityBlock(t *testing.T) {

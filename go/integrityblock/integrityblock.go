@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/WICG/webpackage/go/internal/cbor"
+	"github.com/james-j-obrien/webpackage/go/internal/cbor"
 )
 
 type IntegritySignature struct {

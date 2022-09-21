@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/WICG/webpackage/go/bundle"
+	"github.com/james-j-obrien/webpackage/go/bundle"
 )
 
 func fromURLList(urlListFile string) ([]*bundle.Exchange, error) {

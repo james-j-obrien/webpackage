@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/WICG/webpackage/go/internal/signingalgorithm"
-	. "github.com/WICG/webpackage/go/signedexchange"
-	"github.com/WICG/webpackage/go/signedexchange/certurl"
-	"github.com/WICG/webpackage/go/signedexchange/version"
+	"github.com/james-j-obrien/webpackage/go/internal/signingalgorithm"
+	. "github.com/james-j-obrien/webpackage/go/signedexchange"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/certurl"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/version"
 )
 
 const (

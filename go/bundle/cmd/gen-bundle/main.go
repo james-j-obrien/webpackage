@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/WICG/webpackage/go/bundle"
-	"github.com/WICG/webpackage/go/bundle/version"
+	"github.com/james-j-obrien/webpackage/go/bundle"
+	"github.com/james-j-obrien/webpackage/go/bundle/version"
 )
 
 type headerArgs []string

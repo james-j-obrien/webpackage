@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/WICG/webpackage/go/internal/cbor"
+	. "github.com/james-j-obrien/webpackage/go/internal/cbor"
 )
 
 // fromHex converts strings of the form "12 34  5678 9a" to byte slices.

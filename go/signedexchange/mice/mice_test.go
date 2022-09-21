@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	. "github.com/WICG/webpackage/go/signedexchange/mice"
+	. "github.com/james-j-obrien/webpackage/go/signedexchange/mice"
 )
 
 const MaxRecordSize = 16*1024

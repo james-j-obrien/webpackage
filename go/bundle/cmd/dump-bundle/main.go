@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WICG/webpackage/go/bundle"
-	"github.com/WICG/webpackage/go/bundle/signature"
-	"github.com/WICG/webpackage/go/integrityblock"
+	"github.com/james-j-obrien/webpackage/go/bundle"
+	"github.com/james-j-obrien/webpackage/go/bundle/signature"
+	"github.com/james-j-obrien/webpackage/go/integrityblock"
 )
 
 var (

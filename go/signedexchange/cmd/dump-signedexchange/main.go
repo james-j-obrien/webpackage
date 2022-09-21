@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/WICG/webpackage/go/signedexchange/structuredheader"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/structuredheader"
 
-	"github.com/WICG/webpackage/go/signedexchange"
-	"github.com/WICG/webpackage/go/signedexchange/version"
+	"github.com/james-j-obrien/webpackage/go/signedexchange"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/version"
 )
 
 type headerArgs []string

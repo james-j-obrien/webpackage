@@ -13,7 +13,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/WICG/webpackage/go/internal/cbor"
+	"github.com/james-j-obrien/webpackage/go/internal/cbor"
 )
 
 // AugmentedCertificate represents an augmented-certificate CBOR structure.

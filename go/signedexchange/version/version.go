@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/WICG/webpackage/go/signedexchange/mice"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/mice"
 )
 
 type Version string

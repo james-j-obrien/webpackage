@@ -8,7 +8,7 @@ We currently provide two command-line tools: `gen-signedexchange` and `gen-certu
 
 `gen-certurl` converts an X.509 certificate chain, an OCSP response, and an SCT (if one isn't already included in the certificate or OCSP response) to `application/cert-chain+cbor` format, which is defined in the [Section 3.3 of the Signed HTTP Exchanges spec](https://wicg.github.io/webpackage/draft-yasskin-http-origin-signed-responses.html#rfc.section.3.3).
 
-You are also welcome to use the code as a Go lib (e.g. `import "github.com/WICG/webpackage/go/signedexchange"`), but please be aware that the API is not yet stable and is subject to change any time.
+You are also welcome to use the code as a Go lib (e.g. `import "github.com/james-j-obrien/webpackage/go/signedexchange"`), but please be aware that the API is not yet stable and is subject to change any time.
 
 ## Getting Started
 

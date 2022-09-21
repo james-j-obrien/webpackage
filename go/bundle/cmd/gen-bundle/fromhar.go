@@ -13,8 +13,8 @@ import (
 
 	"github.com/mrichman/hargo"
 
-	"github.com/WICG/webpackage/go/bundle"
-	"github.com/WICG/webpackage/go/signedexchange"
+	"github.com/james-j-obrien/webpackage/go/bundle"
+	"github.com/james-j-obrien/webpackage/go/signedexchange"
 )
 
 func ReadHar(r io.Reader) (*hargo.Har, error) {

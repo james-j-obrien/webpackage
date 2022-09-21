@@ -10,10 +10,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/WICG/webpackage/go/bundle"
-	"github.com/WICG/webpackage/go/bundle/signature"
-	"github.com/WICG/webpackage/go/internal/signingalgorithm"
-	"github.com/WICG/webpackage/go/signedexchange/certurl"
+	"github.com/james-j-obrien/webpackage/go/bundle"
+	"github.com/james-j-obrien/webpackage/go/bundle/signature"
+	"github.com/james-j-obrien/webpackage/go/internal/signingalgorithm"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/certurl"
 )
 
 func readCertChainFromFile(path string) (certurl.CertChain, error) {

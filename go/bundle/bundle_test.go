@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	. "github.com/WICG/webpackage/go/bundle"
-	"github.com/WICG/webpackage/go/bundle/version"
-	"github.com/WICG/webpackage/go/internal/signingalgorithm"
-	"github.com/WICG/webpackage/go/signedexchange/certurl"
+	. "github.com/james-j-obrien/webpackage/go/bundle"
+	"github.com/james-j-obrien/webpackage/go/bundle/version"
+	"github.com/james-j-obrien/webpackage/go/internal/signingalgorithm"
+	"github.com/james-j-obrien/webpackage/go/signedexchange/certurl"
 )
 
 const pemCerts = `-----BEGIN CERTIFICATE-----
