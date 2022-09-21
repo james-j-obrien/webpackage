@@ -1,4 +1,6 @@
 module github.com/WICG/webpackage
+replace github.com/WICG/webpackage => github.com/james-j-obrien/webpackage
+
 
 require (
 	github.com/mrichman/hargo v0.1.2-0.20190117125451-162adce4527e
