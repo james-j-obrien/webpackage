@@ -3,7 +3,6 @@ module github.com/james-j-obrien/webpackage
 go 1.19
 
 require (
-	github.com/WICG/webpackage v0.0.0-00010101000000-000000000000
 	github.com/mrichman/hargo v0.1.2-0.20190117125451-162adce4527e
 	github.com/ugorji/go/codec v0.0.0-20181209151446-772ced7fd4c2
 	golang.org/x/crypto v0.0.0-20180910181607-0e37d006457b
@@ -17,5 +16,3 @@ require (
 	golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33 // indirect
 	golang.org/x/text v0.3.0 // indirect
 )
-
-replace github.com/WICG/webpackage => github.com/james-j-obrien/webpackage v0.0.0-20220921171103-8661177f381c
