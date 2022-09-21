@@ -105,6 +105,7 @@ func fromHar(harPath string) ([]*bundle.Exchange, error) {
 			continue
 		}
 		hasVariants[parsedUrl.String()] = thisHasVariants
+		log.Printf("Headers: %s", resh)
 
 		e := &bundle.Exchange{
 			Request: bundle.Request{

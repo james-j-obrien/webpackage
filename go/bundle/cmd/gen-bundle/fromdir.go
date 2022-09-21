@@ -14,6 +14,9 @@ import (
 )
 
 func fromDir(baseDir string, baseURL *url.URL, cors bool) ([]*bundle.Exchange, error) {
+	if cors {
+		log.Printf("Adding cors headers")
+	}
 	es := []*bundle.Exchange{}
 	err := filepath.Walk(baseDir, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
@@ -99,7 +102,7 @@ func createExchange(file string, url string, cors bool) (*bundle.Exchange, error
 	http.ServeFile(w, req, file)
 
 	if cors {
-		req.Header.Set("Access-Control-Allow-Origin", "*")
+		w.Header().Add("Access-Control-Allow-Origin", "*")
 	}
 
 	return &bundle.Exchange{
